@@ -89,7 +89,6 @@ export default {
 </script>
 
 <style scoped>
-/* Class binding untuk image di sini agar hanya berlaku di komponen ini */
 .product-image {
   width: 100%;
   max-width: 200px;
@@ -102,7 +101,6 @@ export default {
   transition: all 0.5s ease;
 }
 
-/* Styling border spesifik tema */
 .img-men {
   border: 3px solid var(--clr-men-secondary);
 }
@@ -110,7 +108,6 @@ export default {
   border: 3px solid var(--clr-women-secondary);
 }
 
-/* Layout internal component (Produk Valid) */
 .product-card {
   min-height: 250px;
 }
@@ -122,7 +119,7 @@ export default {
 }
 .product-image {
   grid-row: 1 / span 4;
-} /* Diperluas ke 4 baris untuk memberi ruang rating */
+}
 .product-info {
   grid-column: 2 / 3;
 }
@@ -142,7 +139,7 @@ export default {
   font-size: 0.9em;
   font-style: italic;
   margin-bottom: 5px;
-} /* dikurangi margin bottom */
+}
 .product-price {
   font-size: 2.5em;
   font-weight: bold;
@@ -160,7 +157,6 @@ export default {
   margin-top: 20px;
 }
 
-/* RATING STYLES */
 .product-rating {
   display: flex;
   align-items: center;
@@ -184,7 +180,6 @@ export default {
   color: var(--clr-text-secondary);
 }
 
-/* --- UNAVAILABLE STATE STYLING --- */
 .loading-state,
 .unavailable-product-state {
   text-align: center;

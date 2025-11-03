@@ -24,13 +24,14 @@ Aplikasi web Vue.js untuk menampilkan katalog produk ecommerce dengan navigasi p
 ```
 ecommerce-catalog/
 │
-├── public/                    # File publik
+├── public/                   # File publik
 │   ├── favicon.ico           # Favicon aplikasi
 │   └── index.html            # Template HTML utama
 │
-├── src/                       # Source code aplikasi
+├── src/                      # Source code aplikasi
 │   ├── assets/               # Asset statis
-│   │   └── logo.png          # Logo aplikasi
+│   │   └── css/              # Stylesheets   
+│   │     └── style.css       # Stylesheets utama
 │   │
 │   ├── components/           # Komponen Vue
 │   │   ├── AppHeader.vue     # Komponen header/navbar
@@ -39,7 +40,7 @@ ecommerce-catalog/
 │   │
 │   ├── App.vue               # Komponen utama aplikasi
 │   ├── main.js               # Entry point aplikasi
-│   └── style.css             # Global styles dan CSS variables
+│   
 │
 ├── babel.config.js           # Konfigurasi Babel
 ├── jsconfig.json             # Konfigurasi JavaScript
@@ -129,9 +130,9 @@ Aplikasi mengambil produk dengan ID 1-20 secara berurutan.
 
 Aplikasi menggunakan CSS Variables untuk theming:
 
-- **Men's Clothing**: Biru (`#0077B6`)
-- **Women's Clothing**: Pink (`#E91E63`)
-- **Unavailable**: Orange (`#FF5722`)
+- **Men's Clothing**: Dark Blue (`#002772`)
+- **Women's Clothing**: Dark Fuchsia (`#720060`)
+- **Unavailable**: Vivid Orange (`#FF5722`)
 
 ## 📝 Scripts Tersedia
 
@@ -145,9 +146,5 @@ Fauzi Ferdiansyah
 
 ## 📄 License
 
-Proyek ini adalah proyek Untuk 
-
----
-
-**Catatan**: Aplikasi ini dibuat untuk pembelajaran dan demonstrasi penggunaan Vue.js dengan komponen yang reusable dan state management sederhana.
+Proyek ini adalah proyek Untuk [Final Task] Core initiative VIX Front End
 

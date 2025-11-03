@@ -135,7 +135,6 @@ export default {
 </script>
 
 <style>
-/* --- BASE LAYOUT FOR STICKY HEADER/FOOTER --- */
 .app-wrapper {
   display: flex;
   flex-direction: column;
@@ -150,7 +149,6 @@ main {
   padding: 40px 20px;
 }
 
-/* --- Existing Styles for Product Card Container --- */
 .product-card-container {
   padding: 30px;
   border-radius: 12px;
@@ -160,16 +158,14 @@ main {
   max-width: 800px;
 }
 
-/* Style untuk tombol navigasi */
 .navigation-controls {
   margin-top: 25px;
   display: flex;
-  justify-content: center; /* Kembali ke tengah */
+  justify-content: center;
   gap: 15px;
 }
 
 .navigation-controls button {
-  /* Hapus kursor not-allowed dan warna abu-abu dari :disabled karena tombol hilang saat loading */
   padding: 15px 30px;
   border: none;
   border-radius: 8px;
@@ -189,11 +185,6 @@ main {
   background-color: #2c3e50;
   transform: translateY(-2px);
 }
-
-/* --- Hapus styling disabled karena elemen akan hilang saat loading --- */
-/* .navigation-controls button:disabled { ... } */
-
-/* --- THEMES (Mengatur warna kontainer dan tombol aksi) --- */
 
 .default-card-color {
   background-color: white;

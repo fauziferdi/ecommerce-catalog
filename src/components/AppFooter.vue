@@ -19,7 +19,6 @@ export default {
 </script>
 
 <style scoped>
-/* --- FOOTER STYLES --- */
 .main-footer {
   background-color: var(--clr-dark-gray);
   color: #b0b0b0;
